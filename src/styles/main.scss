@@ -1,0 +1,14 @@
+@import "form.scss";
+@import "modal.scss";
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #f4f4f4;
+  height: 100vh;
+  margin: 0;
+}

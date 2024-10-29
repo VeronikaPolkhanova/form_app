@@ -1,0 +1,28 @@
+{
+  "name": "form_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-frontend": "webpack serve --hot --open",
+    "start-server": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "mini-css-extract-plugin": "^2.4.6",
+    "node-sass": "^7.0.1",
+    "sass": "^1.46.0",
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "imask": "^7.6.1"
+  }
+}
