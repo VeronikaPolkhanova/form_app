@@ -1,4 +1,4 @@
-const Register = (formData) => {
+const register = (formData) => {
   fetch("http://localhost:9090/api/registration ", {
     method: "POST",
     body: formData,
@@ -19,4 +19,4 @@ const Register = (formData) => {
     });
 };
 
-export default Register;
+export default register;
